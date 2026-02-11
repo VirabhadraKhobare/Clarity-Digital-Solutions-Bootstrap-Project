@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity - Digital Solutions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header Section -->
+    <header class="header-container container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#">Clarity</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item ms-lg-3"><a class="btn btn-primary rounded-pill px-4" href="#contact">Get Started</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section container-fluid">
+        <div class="container">
+            <div class="row align-items-center min-vh-100 pt-5">
+                <div class="col-lg-6 pt-5 animate-on-scroll">
+                    <h1 class="head-title text-light fw-bold display-4">Transform Your Digital Presence</h1>
+                    <p class="hero-desc my-4 lead">We create innovative digital solutions that drive growth and elevate your brand. From web development to digital marketing, we're your partners in digital transformation.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="hero-button1 btn text-white rounded-pill px-4 py-3">Get Started</button>
+                        <button class="hero-button2 btn rounded-pill px-4 py-3">Our Work</button>
+                    </div>
+                    <div class="hero-stats row mt-5 g-4">
+                        <div class="col-3 text-center">
+                            <h3 class="stat-number fw-bold counter" data-target="150">0</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h3 class="stat-number fw-bold counter" data-target="95">0</h3>
+                            <p class="stat-label">% Satisfaction</p>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h3 class="stat-number fw-bold counter" data-target="24">0</h3>
+                            <p class="stat-label">Team Members</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 animate-on-scroll">
+                    <div class="hero-image-wrapper">
+                        <img class="w-100 rounded-4 shadow-lg" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop" alt="Digital Transformation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 animate-on-scroll">
+                    <p class="about-sub-title text-uppercase fw-bold mb-3">Discover Our Story</p>
+                    <h3 class="about-title text-light fw-bold mb-4">Innovative Solutions for a Digital-First World</h3>
+                    <p class="about-desc text-light opacity-75 mb-4">We are a team of passionate digital experts dedicated to transforming businesses through cutting-edge technology and creative strategies. Our approach combines innovation with practical solutions.</p>
+                    <ul class="feature-list list-unstyled mb-4">
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill me-3 fs-5"></i>
+                            <span class="text-light">Strategic digital transformation consulting</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill me-3 fs-5"></i>
+                            <span class="text-light">User-centered design approach</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill me-3 fs-5"></i>
+                            <span class="text-light">Agile development methodology</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2">Discover More</a>
+                </div>
+                <div class="col-lg-7 animate-on-scroll">
+                    <div class="about-images position-relative">
+                        <img class="main-img rounded-4 shadow-lg w-100" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop" alt="Team collaboration">
+                        <img class="secondary-img rounded-4 shadow-lg position-absolute" src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&auto=format&fit=crop" alt="Office meeting">
+                        <div class="stats-card position-absolute bg-dark rounded-4 p-3 shadow-lg">
+                            <div class="d-flex gap-4 text-center">
+                                <div>
+                                    <h2 class="stat-number fw-bold text-primary mb-0">20+</h2>
+                                    <p class="stat-label small mb-0 text-white-50">Years Experience</p>
+                                </div>
+                                <div>
+                                    <h2 class="stat-number fw-bold text-primary mb-0">500+</h2>
+                                    <p class="stat-label small mb-0 text-white-50">Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="text-light fw-bold display-5">Our Services</h2>
+                <p class="text-light opacity-75 lead">Comprehensive digital solutions tailored to your needs</p>
+            </div>
+            
+            <div class="row g-4 mb-4">
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="service-card h-100 p-4 text-center">
+                        <div class="service-icon mx-auto mb-3 rounded-4 p-3 bg-primary bg-gradient text-light d-inline-flex">
+                            <i class="bi bi-palette fs-2"></i>
+                        </div>
+                        <h4 class="service-title text-light mt-3 fw-bold">Brand Identity Design</h4>
+                        <p class="service-description mt-2">Creating memorable brand experiences that resonate with your target audience and establish market presence.</p>
+                        <a class="text-decoration-none mt-auto pt-3 text-primary fw-bold d-inline-block" href="#">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="service-card h-100 p-4 text-center">
+                        <div class="service-icon mx-auto mb-3 rounded-4 p-3 bg-primary bg-gradient text-light d-inline-flex">
+                            <i class="bi bi-layout-text-sidebar-reverse fs-2"></i>
+                        </div>
+                        <h4 class="service-title text-light mt-3 fw-bold">UI/UX Design</h4>
+                        <p class="service-description mt-2">User-centered design solutions that enhance usability and create delightful digital experiences.</p>
+                        <a class="text-decoration-none mt-auto pt-3 text-primary fw-bold d-inline-block" href="#">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="service-card h-100 p-4 text-center">
+                        <div class="service-icon mx-auto mb-3 rounded-4 p-3 bg-primary bg-gradient text-light d-inline-flex">
+                            <i class="bi bi-code-slash fs-2"></i>
+                        </div>
+                        <h4 class="service-title text-light mt-3 fw-bold">Web Development</h4>
+                        <p class="service-description mt-2">Robust, scalable web applications built with modern technologies and best practices.</p>
+                        <a class="text-decoration-none mt-auto pt-3 text-primary fw-bold d-inline-block" href="#">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="service-card h-100 p-4 text-center">
+                        <div class="service-icon mx-auto mb-3 rounded-4 p-3 bg-primary bg-gradient text-light d-inline-flex">
+                            <i class="bi bi-phone fs-2"></i>
+                        </div>
+                        <h4 class="service-title text-light mt-3 fw-bold">Mobile App Design</h4>
+                        <p class="service-description mt-2">Native and cross-platform mobile applications designed for optimal performance and user engagement.</p>
+                        <a class="text-decoration-none mt-auto pt-3 text-primary fw-bold d-inline-block" href="#">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="service-card h-100 p-4 text-center">
+                        <div class="service-icon mx-auto mb-3 rounded-4 p-3 bg-primary bg-gradient text-light d-inline-flex">
+                            <i class="bi bi-megaphone fs-2"></i>
+                        </div>
+                        <h4 class="service-title text-light mt-3 fw-bold">Digital Marketing</h4>
+                        <p class="service-description mt-2">Data-driven marketing strategies that increase visibility, engagement, and conversion rates.</p>
+                        <a class="text-decoration-none mt-auto pt-3 text-primary fw-bold d-inline-block" href="#">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="service-card h-100 p-4 text-center">
+                        <div class="service-icon mx-auto mb-3 rounded-4 p-3 bg-primary bg-gradient text-light d-inline-flex">
+                            <i class="bi bi-search fs-2"></i>
+                        </div>
+                        <h4 class="service-title text-light mt-3 fw-bold">SEO Optimization</h4>
+                        <p class="service-description mt-2">Comprehensive SEO strategies that improve rankings and drive organic traffic growth.</p>
+                        <a class="text-decoration-none mt-auto pt-3 text-primary fw-bold d-inline-block" href="#">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-bottom-card text-center p-5 rounded-4 mt-5 animate-on-scroll">
+                <h3 class="text-light fw-bold mb-3">Ready to Transform Your Digital Presence?</h3>
+                <p class="text-white-50 mb-4">Let's discuss your project and create something amazing together</p>
+                <button class="btn btn-primary rounded-pill px-5 py-3 fw-bold">Get Started Today</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="text-light fw-bold display-5">Portfolio</h2>
+                <p class="text-light opacity-75 lead">Showcasing our best work and success stories</p>
+            </div>
+
+            <div class="portfolio-filter d-flex flex-wrap justify-content-center gap-3 mb-5 animate-on-scroll">
+                <button class="btn btn-primary rounded-pill px-4 active" data-filter="all">All Projects</button>
+                <button class="btn btn-outline-primary rounded-pill px-4" data-filter="web">Web Design</button>
+                <button class="btn btn-outline-primary rounded-pill px-4" data-filter="mobile">Mobile Apps</button>
+                <button class="btn btn-outline-primary rounded-pill px-4" data-filter="branding">Branding</button>
+                <button class="btn btn-outline-primary rounded-pill px-4" data-filter="uiux">UI-UX</button>
+            </div>
+
+            <div class="row g-4" id="portfolioGrid">
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card h-100 overflow-hidden">
+                        <img class="intro-img w-100" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop" alt="Digital Innovation Platform">
+                        <div class="intro-sec p-4">
+                            <div class="intro-upper mb-3 d-flex align-items-center">
+                                <span class="badge bg-dark text-primary rounded-pill text-uppercase">Web Design</span>
+                                <span class="rating-star ms-auto text-warning"><i class="bi bi-star-fill"></i> 4.8</span>
+                            </div>
+                            <h4 class="text-light fw-bold">Digital Innovation Platform</h4>
+                            <p class="text-white-50 small">A comprehensive digital transformation solution for enterprise clients.</p>
+                            <div class="intro-lower d-flex flex-wrap gap-2 mt-3">
+                                <span class="badge bg-dark border border-secondary">React</span>
+                                <span class="badge bg-dark border border-secondary">Node.js</span>
+                                <span class="badge bg-dark border border-secondary">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="mobile">
+                    <div class="portfolio-card h-100 overflow-hidden">
+                        <img class="intro-img w-100" src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&auto=format&fit=crop" alt="Smart Productivity App">
+                        <div class="intro-sec p-4">
+                            <div class="intro-upper mb-3 d-flex align-items-center">
+                                <span class="badge bg-dark text-primary rounded-pill text-uppercase">Mobile App</span>
+                                <span class="rating-star ms-auto text-warning"><i class="bi bi-star-fill"></i> 4.9</span>
+                            </div>
+                            <h4 class="text-light fw-bold">Smart Productivity App</h4>
+                            <p class="text-white-50 small">AI-powered productivity application with intuitive task management.</p>
+                            <div class="intro-lower d-flex flex-wrap gap-2 mt-3">
+                                <span class="badge bg-dark border border-secondary">Flutter</span>
+                                <span class="badge bg-dark border border-secondary">Firebase</span>
+                                <span class="badge bg-dark border border-secondary">AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="branding">
+                    <div class="portfolio-card h-100 overflow-hidden">
+                        <img class="intro-img w-100" src="https://images.unsplash.com/photo-1634942537034-2531766767d1?w=600&auto=format&fit=crop" alt="Modern Brand Identity">
+                        <div class="intro-sec p-4">
+                            <div class="intro-upper mb-3 d-flex align-items-center">
+                                <span class="badge bg-dark text-primary rounded-pill text-uppercase">Branding</span>
+                                <span class="rating-star ms-auto text-warning"><i class="bi bi-star-fill"></i> 5.0</span>
+                            </div>
+                            <h4 class="text-light fw-bold">Modern Brand Identity</h4>
+                            <p class="text-white-50 small">Complete brand overhaul including logo, guidelines, and marketing assets.</p>
+                            <div class="intro-lower d-flex flex-wrap gap-2 mt-3">
+                                <span class="badge bg-dark border border-secondary">Illustrator</span>
+                                <span class="badge bg-dark border border-secondary">Figma</span>
+                                <span class="badge bg-dark border border-secondary">Brand</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="uiux">
+                    <div class="portfolio-card h-100 overflow-hidden">
+                        <img class="intro-img w-100" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop" alt="SaaS Dashboard Design">
+                        <div class="intro-sec p-4">
+                            <div class="intro-upper mb-3 d-flex align-items-center">
+                                <span class="badge bg-dark text-primary rounded-pill text-uppercase">UI-UX</span>
+                                <span class="rating-star ms-auto text-warning"><i class="bi bi-star-fill"></i> 4.7</span>
+                            </div>
+                            <h4 class="text-light fw-bold">SaaS Dashboard Design</h4>
+                            <p class="text-white-50 small">Intuitive analytics dashboard with real-time data visualization.</p>
+                            <div class="intro-lower d-flex flex-wrap gap-2 mt-3">
+                                <span class="badge bg-dark border border-secondary">Figma</span>
+                                <span class="badge bg-dark border border-secondary">Prototyping</span>
+                                <span class="badge bg-dark border border-secondary">UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card h-100 overflow-hidden">
+                        <img class="intro-img w-100" src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&auto=format&fit=crop" alt="E-commerce Platform">
+                        <div class="intro-sec p-4">
+                            <div class="intro-upper mb-3 d-flex align-items-center">
+                                <span class="badge bg-dark text-primary rounded-pill text-uppercase">E-commerce</span>
+                                <span class="rating-star ms-auto text-warning"><i class="bi bi-star-fill"></i> 4.6</span>
+                            </div>
+                            <h4 class="text-light fw-bold">E-commerce Platform</h4>
+                            <p class="text-white-50 small">Scalable online marketplace with advanced filtering and payment integration.</p>
+                            <div class="intro-lower d-flex flex-wrap gap-2 mt-3">
+                                <span class="badge bg-dark border border-secondary">Shopify</span>
+                                <span class="badge bg-dark border border-secondary">React</span>
+                                <span class="badge bg-dark border border-secondary">API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="mobile">
+                    <div class="portfolio-card h-100 overflow-hidden">
+                        <img class="intro-img w-100" src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop" alt="Fintech Mobile Solution">
+                        <div class="intro-sec p-4">
+                            <div class="intro-upper mb-3 d-flex align-items-center">
+                                <span class="badge bg-dark text-primary rounded-pill text-uppercase">Fintech</span>
+                                <span class="rating-star ms-auto text-warning"><i class="bi bi-star-fill"></i> 4.8</span>
+                            </div>
+                            <h4 class="text-light fw-bold">Fintech Mobile Solution</h4>
+                            <p class="text-white-50 small">Secure mobile banking app with biometric authentication and instant transfers.</p>
+                            <div class="intro-lower d-flex flex-wrap gap-2 mt-3">
+                                <span class="badge bg-dark border border-secondary">Swift</span>
+                                <span class="badge bg-dark border border-secondary">Kotlin</span>
+                                <span class="badge bg-dark border border-secondary">Blockchain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-bottom-card text-center p-5 rounded-4 mt-5 animate-on-scroll">
+                <h3 class="text-light fw-bold mb-3">Ready to start your next project?</h3>
+                <p class="text-light opacity-75 mb-4">Let's work together to bring your digital vision to life</p>
+                <a class="btn btn-primary me-2 px-4 py-2" href="#contact">Start a Project</a>
+                <a class="btn btn-outline-primary px-4 py-2" href="#">View All Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="whyUs-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="text-light fw-bold display-5">Why Choose Us</h2>
+                <p class="text-light opacity-75 lead">What sets us apart from the competition</p>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="whyUs-card h-100 p-4 text-center">
+                        <div class="why-us-icon mx-auto mb-3">
+                            <i class="bi bi-palette text-light fs-1 p-3 rounded-4 d-inline-block"></i>
+                        </div>
+                        <h4 class="whyUs-title text-light fw-bold pt-3">Creative Excellence</h4>
+                        <p class="whyUs-description mt-3">Award-winning designs that captivate audiences and drive engagement through innovative visual storytelling.</p>
+                        <hr class="border-secondary my-3">
+                        <p class="whyUs-count fw-bold text-primary mb-0 display-5">95</p>
+                        <span class="whyUs-percent text-white-50">% Client Satisfaction</span>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="whyUs-card h-100 p-4 text-center">
+                        <div class="why-us-icon mx-auto mb-3">
+                            <i class="bi bi-graph-up-arrow text-light fs-1 p-3 rounded-4 d-inline-block"></i>
+                        </div>
+                        <h4 class="whyUs-title text-light fw-bold pt-3">Proven Results</h4>
+                        <p class="whyUs-description mt-3">Data-driven strategies that deliver measurable ROI and sustainable business growth for our partners.</p>
+                        <hr class="border-secondary my-3">
+                        <p class="whyUs-count fw-bold text-primary mb-0 display-5">200</p>
+                        <span class="whyUs-percent text-white-50">% ROI Increase</span>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="whyUs-card h-100 p-4 text-center">
+                        <div class="why-us-icon mx-auto mb-3">
+                            <i class="bi bi-people text-light fs-1 p-3 rounded-4 d-inline-block"></i>
+                        </div>
+                        <h4 class="whyUs-title text-light fw-bold pt-3">Expert Team</h4>
+                        <p class="whyUs-description mt-3">Industry veterans with deep expertise across design, development, and digital marketing disciplines.</p>
+                        <hr class="border-secondary my-3">
+                        <p class="whyUs-count fw-bold text-primary mb-0 display-5">50</p>
+                        <span class="whyUs-percent text-white-50">+ Awards Won</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 animate-on-scroll">
+                    <img class="img-fluid rounded-4 shadow-lg" src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop" alt="Team collaboration">
+                </div>
+                <div class="col-lg-6 animate-on-scroll">
+                    <h2 class="text-light fw-bold mb-4">Why Leading Brands Choose Us</h2>
+                    <p class="whyUs-dec2 text-white-50 mb-4">We combine strategic thinking with creative execution to deliver solutions that not only look great but perform exceptionally.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature d-flex mb-4">
+                            <div class="feature-logo flex-shrink-0">
+                                <i class="bi bi-check-circle-fill fs-4 text-primary"></i>
+                            </div>
+                            <div class="feature-info ms-3">
+                                <h5 class="feature-head text-light fw-bold">Strategic Thinking</h5>
+                                <p class="feature-dec text-white-50 small mb-0">Every project starts with deep research and strategic planning to ensure alignment with business goals.</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex mb-4">
+                            <div class="feature-logo flex-shrink-0">
+                                <i class="bi bi-check-circle-fill fs-4 text-primary"></i>
+                            </div>
+                            <div class="feature-info ms-3">
+                                <h5 class="feature-head text-light fw-bold">Data-Driven Approach</h5>
+                                <p class="feature-dec text-white-50 small mb-0">We leverage analytics and user insights to make informed decisions and optimize performance.</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex mb-4">
+                            <div class="feature-logo flex-shrink-0">
+                                <i class="bi bi-check-circle-fill fs-4 text-primary"></i>
+                            </div>
+                            <div class="feature-info ms-3">
+                                <h5 class="feature-head text-light fw-bold">24/7 Support</h5>
+                                <p class="feature-dec text-white-50 small mb-0">Round-the-clock support ensures your digital assets are always performing at their best.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a class="btn btn-primary me-2 px-4" href="#contact">Start Your Project</a>
+                        <a class="btn btn-outline-primary px-4" href="#portfolio">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="Testimonials-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="text-light fw-bold display-5">Testimonials</h2>
+                <p class="text-light opacity-75 lead">What our clients say about working with us</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="Testimonials-card h-100 p-4 position-relative">
+                        <div class="quote-icon position-absolute top-0 end-0 m-3">
+                            <i class="bi bi-quote text-primary fs-2 opacity-50"></i>
+                        </div>
+                        <div class="user d-flex align-items-center mb-3">
+                            <img class="user-avatar rounded-3" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&h=150" alt="Alexander Chen">
+                            <div class="user-info ms-3">
+                                <p class="text-light fw-bold mb-0">Alexander Chen</p>
+                                <span class="user-work text-white-50 small">Frontend Engineer</span>
+                                <div class="rating-star text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="profile-description text-white-50">"Clarity transformed our digital presence completely. Their attention to detail and innovative approach exceeded all expectations. Highly recommended!"</p>
+                        <hr class="border-secondary">
+                        <div class="user-lower d-flex align-items-center justify-content-between">
+                            <span class="badge bg-dark text-primary"><i class="bi bi-building me-1"></i> InnovateLab</span>
+                            <span class="verified text-success small fw-bold"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="Testimonials-card h-100 p-4 position-relative">
+                        <div class="quote-icon position-absolute top-0 end-0 m-3">
+                            <i class="bi bi-quote text-primary fs-2 opacity-50"></i>
+                        </div>
+                        <div class="user d-flex align-items-center mb-3">
+                            <img class="user-avatar rounded-3" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&h=150" alt="Sarah Johnson">
+                            <div class="user-info ms-3">
+                                <p class="text-light fw-bold mb-0">Sarah Johnson</p>
+                                <span class="user-work text-white-50 small">Product Manager</span>
+                                <div class="rating-star text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="profile-description text-white-50">"Working with Clarity was a game-changer for our startup. They delivered a world-class product that our users love. Exceptional team!"</p>
+                        <hr class="border-secondary">
+                        <div class="user-lower d-flex align-items-center justify-content-between">
+                            <span class="badge bg-dark text-primary"><i class="bi bi-building me-1"></i> TechStart</span>
+                            <span class="verified text-success small fw-bold"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="Testimonials-card h-100 p-4 position-relative">
+                        <div class="quote-icon position-absolute top-0 end-0 m-3">
+                            <i class="bi bi-quote text-primary fs-2 opacity-50"></i>
+                        </div>
+                        <div class="user d-flex align-items-center mb-3">
+                            <img class="user-avatar rounded-3" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&h=150" alt="Michael Roberts">
+                            <div class="user-info ms-3">
+                                <p class="text-light fw-bold mb-0">Michael Roberts</p>
+                                <span class="user-work text-white-50 small">CEO</span>
+                                <div class="rating-star text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="profile-description text-white-50">"The ROI we've seen since launching our new platform has been incredible. Clarity understands business and technology perfectly."</p>
+                        <hr class="border-secondary">
+                        <div class="user-lower d-flex align-items-center justify-content-between">
+                            <span class="badge bg-dark text-primary"><i class="bi bi-building me-1"></i> GrowthCorp</span>
+                            <span class="verified text-success small fw-bold"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="Team-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="text-light fw-bold display-5">Our Team</h2>
+                <p class="text-light opacity-75 lead">Meet the experts behind our success</p>
+            </div>
+
+            <div class="row g-5 align-items-center mb-5">
+                <div class="col-lg-6 animate-on-scroll">
+                    <h2 class="team-heading text-light fw-bold mb-4">Meet Our Exceptional Team</h2>
+                    <p class="team-desc text-white-50 mb-4">Our diverse team brings together expertise from design, development, marketing, and strategy to deliver comprehensive digital solutions.</p>
+                    
+                    <div class="team-stats-card d-flex gap-4 rounded-4 py-4 w-75 justify-content-center">
+                        <div class="stats-item text-center">
+                            <p class="stats-count fw-bold text-primary mb-0 display-6">50+</p>
+                            <p class="stats-name text-uppercase small text-white-50 mb-0">Team Members</p>
+                        </div>
+                        <div class="stats-item text-center border-start border-secondary ps-4">
+                            <p class="stats-count fw-bold text-primary mb-0 display-6">8</p>
+                            <p class="stats-name text-uppercase small text-white-50 mb-0">Departments</p>
+                        </div>
+                        <div class="stats-item text-center border-start border-secondary ps-4">
+                            <p class="stats-count fw-bold text-primary mb-0 display-6">15+</p>
+                            <p class="stats-name text-uppercase small text-white-50 mb-0">Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 animate-on-scroll">
+                    <div class="team-grid position-relative">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <div class="team-member text-center">
+                                    <img class="img-fluid rounded-4 mb-2" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop" alt="Sarah Chen">
+                                    <h5 class="text-light mb-0">Sarah Chen</h5>
+                                    <span class="text-primary small">Creative Director</span>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-5">
+                                <div class="team-member text-center">
+                                    <img class="img-fluid rounded-4 mb-2" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&auto=format&fit=crop" alt="David Kim">
+                                    <h5 class="text-light mb-0">David Kim</h5>
+                                    <span class="text-primary small">Tech Lead</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-light fw-bold text-center mb-4 animate-on-scroll">Leadership Team</h3>
+            <div class="row g-4">
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="leader-card h-100">
+                        <div class="leader-avatar">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop" alt="Alex Garcia">
+                        </div>
+                        <div class="leader-info p-4 text-center">
+                            <h5 class="leader-name fw-bold">Alex Garcia</h5>
+                            <p class="leader-work text-primary mb-2">VP of Marketing</p>
+                            <p class="leader-desc text-white-50 small mb-3">Driving growth through innovative marketing strategies and brand development.</p>
+                            <div class="leader-icons justify-content-center">
+                                <a href="#" class="me-2"><i class="bi bi-envelope"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="leader-card h-100">
+                        <div class="leader-avatar">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop" alt="Emily Watson">
+                        </div>
+                        <div class="leader-info p-4 text-center">
+                            <h5 class="leader-name fw-bold">Emily Watson</h5>
+                            <p class="leader-work text-primary mb-2">Design Director</p>
+                            <p class="leader-desc text-white-50 small mb-3">Creating beautiful, functional designs that users love and remember.</p>
+                            <div class="leader-icons justify-content-center">
+                                <a href="#" class="me-2"><i class="bi bi-envelope"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="leader-card h-100">
+                        <div class="leader-avatar">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop" alt="James Wilson">
+                        </div>
+                        <div class="leader-info p-4 text-center">
+                            <h5 class="leader-name fw-bold">James Wilson</h5>
+                            <p class="leader-work text-primary mb-2">CTO</p>
+                            <p class="leader-desc text-white-50 small mb-3">Leading technical innovation and engineering excellence across all projects.</p>
+                            <div class="leader-icons justify-content-center">
+                                <a href="#" class="me-2"><i class="bi bi-envelope"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-bottom-card text-center p-5 rounded-4 mt-5 mx-auto animate-on-scroll" style="max-width: 800px;">
+                <div class="rocket-icon mb-3">
+                    <i class="bi bi-rocket-takeoff text-primary display-4"></i>
+                </div>
+                <h3 class="title text-light fw-bold mb-3">Ready to Join Our Mission?</h3>
+                <p class="desc2 text-white-50 mb-4 px-md-5">Be part of a team that's shaping the future of digital experiences. We're always looking for talented individuals.</p>
+                <a class="btn btn-primary me-2 px-4" href="#">View Open Roles</a>
+                <a class="btn btn-outline-primary px-4" href="#">Learn Our Culture</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="text-light fw-bold display-5">Contact Us</h2>
+                <p class="text-light opacity-75 lead">Let's start a conversation about your next project</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-5 animate-on-scroll">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form rounded-4 p-4 p-md-5">
+                            <div class="text-center mb-4">
+                                <div class="msg-icon mx-auto mb-3 bg-primary rounded-3 d-inline-flex p-3">
+                                    <i class="bi bi-chat-dots-fill text-light fs-3"></i>
+                                </div>
+                                <h3 class="contact-head text-light fw-bold">Get In Touch</h3>
+                                <p class="contact-desc text-white-50 small">Fill out the form below and we'll get back to you shortly.</p>
+                            </div>
+
+                            <div class="row g-3 mb-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control bg-dark text-light border-secondary" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control bg-dark text-light border-secondary" placeholder="Email Address" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control bg-dark text-light border-secondary" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-4">
+                                <textarea class="form-control bg-dark text-light border-secondary" rows="4" placeholder="Tell us about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 py-3 fw-bold">
+                                Send Message <i class="bi bi-send-fill ms-2"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 animate-on-scroll">
+                    <div class="contact-info">
+                        <h3 class="sub-title text-white fw-bold mb-3">Ready to Transform Your Ideas?</h3>
+                        <p class="contact-dec2 text-white-50 mb-4">Whether you have a specific project in mind or just want to explore possibilities, we're here to help you succeed.</p>
+                        
+                        <div class="contact-cards d-flex flex-column gap-3 mb-4">
+                            <div class="contact-card d-flex align-items-center p-3 rounded-3 bg-dark border border-secondary">
+                                <div class="icon flex-shrink-0 me-3">
+                                    <i class="bi bi-envelope-at text-primary fs-4 p-2 rounded-3 bg-dark d-inline-block"></i>
+                                </div>
+                                <div class="info">
+                                    <h6 class="sec-name text-light fw-bold mb-1">Email Us</h6>
+                                    <p class="connect text-white mb-0 small">hello@clarity.com</p>
+                                    <p class="response-time text-white-50 mb-0 small">Response in 2-4 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card d-flex align-items-center p-3 rounded-3 bg-dark border border-secondary">
+                                <div class="icon flex-shrink-0 me-3">
+                                    <i class="bi bi-telephone text-primary fs-4 p-2 rounded-3 bg-dark d-inline-block"></i>
+                                </div>
+                                <div class="info">
+                                    <h6 class="sec-name text-light fw-bold mb-1">Call Us</h6>
+                                    <p class="connect text-white mb-0 small">+1 (555) 987-6543</p>
+                                    <p class="response-time text-white-50 mb-0 small">Available 9AM - 6PM EST</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card d-flex align-items-center p-3 rounded-3 bg-dark border border-secondary">
+                                <div class="icon flex-shrink-0 me-3">
+                                    <i class="bi bi-geo-alt text-primary fs-4 p-2 rounded-3 bg-dark d-inline-block"></i>
+                                </div>
+                                <div class="info">
+                                    <h6 class="sec-name text-light fw-bold mb-1">Visit Our Office</h6>
+                                    <p class="connect text-white mb-0 small">4821 Broadway Street, New York, NY 10013</p>
+                                    <p class="response-time text-white-50 mb-0 small">Open Monday - Friday</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-card-stats bg-dark rounded-3 p-3 border border-secondary mb-4">
+                            <div class="row text-center g-3">
+                                <div class="col-4">
+                                    <p class="stats-count fw-bold text-primary mb-0">24h</p>
+                                    <p class="stats-name text-white-50 small mb-0">Avg Response</p>
+                                </div>
+                                <div class="col-4 border-start border-secondary">
+                                    <p class="stats-count fw-bold text-primary mb-0">98%</p>
+                                    <p class="stats-name text-white-50 small mb-0">Satisfaction</p>
+                                </div>
+                                <div class="col-4 border-start border-secondary">
+                                    <p class="stats-count fw-bold text-primary mb-0">150+</p>
+                                    <p class="stats-name text-white-50 small mb-0">Projects</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-icons text-center">
+                            <h6 class="social-header text-light mb-3">Connect With Us</h6>
+                            <div class="icons-list d-flex justify-content-center gap-3">
+                                <a href="#" class="d-flex align-items-center justify-content-center text-primary" style="width: 45px; height: 45px;">
+                                    <i class="bi bi-linkedin fs-5"></i>
+                                </a>
+                                <a href="#" class="d-flex align-items-center justify-content-center  text-primary" style="width: 45px; height: 45px;">
+                                    <i class="bi bi-twitter-x fs-5"></i>
+                                </a>
+                                <a href="#" class="d-flex align-items-center justify-content-center text-primary" style="width: 45px; height: 45px;">
+                                    <i class="bi bi-github fs-5"></i>
+                                </a>
+                                <a href="#" class="d-flex align-items-center justify-content-center text-primary" style="width: 45px; height: 45px;">
+                                    <i class="bi bi-discord fs-5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4 class="fs-3 text-white fw-bold mb-4">Clarity</h4>
+                    <p class="text-white-50 mb-2">A108 Adam Street</p>
+                    <p class="text-white-50 mb-3">New York, NY 535022</p>
+                    <p class="text-white-50 mb-1"><i class="bi bi-telephone me-2"></i>+1 5589 55488 55</p>
+                    <p class="text-white-50 mb-3"><i class="bi bi-envelope me-2"></i>info@example.com</p>
+
+                    <div class="icons-list d-flex gap-2">
+                        <a href="#" class="text-white-50 border border-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="#" class="text-white-50 border border-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white-50 border border-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white-50 border border-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-6 col-md-3">
+                            <h6 class="text-white fw-bold mb-3">Useful Links</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none hover-primary">Home</a></li>
+                                <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none hover-primary">About us</a></li>
+                                <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none hover-primary">Services</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Terms of service</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h6 class="text-white fw-bold mb-3">Our Services</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Web Design</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Web Development</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Product Management</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Marketing</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Graphic Design</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h6 class="text-white fw-bold mb-3">Company</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Careers</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Blog</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Press</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Partners</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h6 class="text-white fw-bold mb-3">Support</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Help Center</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Contact Us</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">FAQ</a></li>
+                                <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none hover-primary">Community</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-secondary my-4">
+
+            <div class="footer-bottom text-center">
+                <p class="text-white-50 mb-1">&copy; 2024 Clarity. All Rights Reserved.</p>
+                <p class="text-white-50 small mb-0">Designed with <i class="bi bi-heart-fill text-danger"></i> by <a href="#" class="text-primary text-decoration-none">Virabhadra</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4 d-none" style="width: 50px; height: 50px; z-index: 1000;">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
